@@ -2,7 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First create `.env.local` file in the root directory and paste this,
+
+```env
+NEXT_PUBLIC_OPEN_WEATHER_MAP_APP_ID="your-open-weather-map-app-id"
+```
+
+Get your `API_KEY` from [https://openweathermap.org](https://openweathermap.org).
+
+Then, run the development server:
 
 ```bash
 npm run dev
